@@ -11,7 +11,7 @@ export const config = {
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "d035fecd24f6903e24a31d1bd6375752",
+  APP_SECRET: "ebd6de97f63ff2177b973778cb829813",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -30,21 +30,21 @@ export const config = {
     // 金山每日一句
     CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: false,
+    poetry: true,
 
     /** 星座运势 */
     horoscope: false,
 
     /** 生日消息和节日消息 */
-    birthdayMessage: true,
+    birthdayMessage: false,
   },
 
   /** 每日一言 */
@@ -64,11 +64,11 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o2jUq63OSyQnB7ryiAnHCmO_EFtc",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "CoEY5KCQAWG-07xogzZRiI265Uh5UBDSdkh7owl2ePU",
+      useTemplateId: "o9h0FnrvPbybmV-jhYvtpAXtcTKe2hkNt2PhACd-Q9o",
       // 所在省份
-      province: "广东",
+      province: "河北",
       // 所在城市
-      city: "肇庆",
+      city: "沧州",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
