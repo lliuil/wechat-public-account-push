@@ -107,19 +107,7 @@ export const config = {
       customizedDateList: []
     },
     {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "http://weather.cma.cn/web/weather/54616.html",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "老婆3",
+      name: "测试",
       id: "",
       useTemplateId: "",
       province: "",
