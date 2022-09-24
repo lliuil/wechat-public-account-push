@@ -28,9 +28,9 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
-    oneTalk: true,
+    oneTalk: false,
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
@@ -60,21 +60,21 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "liu",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o2jUq63OSyQnB7ryiAnHCmO_EFtc",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "o9h0FnrvPbybmV-jhYvtpAXtcTKe2hkNt2PhACd-Q9o",
+      useTemplateId: "QnnvvB4BAIH82i497z4yoUIFOil7gYsJH3ze1TsKQNA",
       // 所在省份
       province: "河北",
       // 所在城市
       city: "沧州",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '01-25',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "open.baidu.com",
+      openUrl: "https://weathernew.pae.baidu.com/weathernew/pc?query=%E6%B2%B3%E5%8C%97%E6%B2%A7%E5%B7%9E%E5%A4%A9%E6%B0%94&srcid=4982",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -95,14 +95,14 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
+      name: "yyy",
+      id: "o2jUq68SNP9jra7_8ggYF-HeEpL0",
+      useTemplateId: "	QnnvvB4BAIH82i497z4yoUIFOil7gYsJH3ze1TsKQNA",
+      province: "河北",
+      city: "沧州",
+      horoscopeDate: '11-10',
+      horoscopeDateType: '今日',
+      openUrl: "https://weathernew.pae.baidu.com/weathernew/pc?query=%E6%B2%B3%E5%8C%97%E6%B2%A7%E5%B7%9E%E5%A4%A9%E6%B0%94&srcid=4982",
       festivals: [],
       customizedDateList: []
     },
