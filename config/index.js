@@ -28,9 +28,9 @@ export const config = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: false,
+    CIBA: true,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
@@ -41,10 +41,10 @@ export const config = {
     poetry: true,
 
     /** 星座运势 */
-    horoscope: false,
+    horoscope: true,
 
     /** 生日消息和节日消息 */
-    birthdayMessage: false,
+    birthdayMessage: true,
   },
 
   /** 每日一言 */
@@ -97,7 +97,7 @@ export const config = {
     {
       name: "yyy",
       id: "o2jUq68SNP9jra7_8ggYF-HeEpL0",
-      useTemplateId: "	QnnvvB4BAIH82i497z4yoUIFOil7gYsJH3ze1TsKQNA",
+      useTemplateId: "QnnvvB4BAIH82i497z4yoUIFOil7gYsJH3ze1TsKQNA",
       province: "河北",
       city: "沧州",
       horoscopeDate: '11-10',
