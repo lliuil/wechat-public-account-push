@@ -107,6 +107,18 @@ export const config = {
       customizedDateList: []
     },
     {
+      name: "feng",
+      id: "o2jUq61KnO4mvfS-MpVHnaE9G2M8",
+      useTemplateId: "i0nATSwOIR15BJ0-RZEg8Bh2gznxk0DTW4ShOMnP_Ko",
+      province: "河北",
+      city: "石家庄",
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: "http://weather.cma.cn",
+      festivals: [],
+      customizedDateList: []
+    },
+    {
       name: "gong",
       id: "o2jUq6zGlVoWneXOxMg84Vr-bYAE",
       useTemplateId: "i0nATSwOIR15BJ0-RZEg8Bh2gznxk0DTW4ShOMnP_Ko",
