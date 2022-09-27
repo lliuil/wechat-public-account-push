@@ -96,7 +96,7 @@ export const config = {
     },
     {
       name: "yyy",
-      //id: "o2jUq68SNP9jra7_8ggYF-HeEpL0",
+      id: "o2jUq68SNP9jra7_8ggYF-HeEpL0",
       useTemplateId: "QnnvvB4BAIH82i497z4yoUIFOil7gYsJH3ze1TsKQNA",
       province: "河北",
       city: "沧州",
@@ -109,7 +109,7 @@ export const config = {
     
     {
       name: "feng",
-      //id: "o2jUq61KnO4mvfS-MpVHnaE9G2M8",
+      id: "o2jUq61KnO4mvfS-MpVHnaE9G2M8",
       useTemplateId: "i0nATSwOIR15BJ0-RZEg8Bh2gznxk0DTW4ShOMnP_Ko",
       province: "河北",
       city: "石家庄",
@@ -121,19 +121,7 @@ export const config = {
     },
     {
       name: "gong",
-      //id: "o2jUq6zGlVoWneXOxMg84Vr-bYAE",
-      useTemplateId: "i0nATSwOIR15BJ0-RZEg8Bh2gznxk0DTW4ShOMnP_Ko",
-      province: "河北",
-      city: "沧州",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "http://weather.cma.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    {
-      name: "lrf",
-      id: "o2jUq6xQcgmX91_phbgksaTmHAac",
+      id: "o2jUq6zGlVoWneXOxMg84Vr-bYAE",
       useTemplateId: "i0nATSwOIR15BJ0-RZEg8Bh2gznxk0DTW4ShOMnP_Ko",
       province: "河北",
       city: "沧州",
